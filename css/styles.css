@@ -26,14 +26,9 @@ p {
   line-height: 1.5;
 }
 
-#title {
-  background-color: #FF4C68;
-  color: #FFF;
-  text-align: left;
-}
-
+/* Containers */
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 
@@ -65,6 +60,18 @@ p {
 }
 
 
+/* Title Section */
+#title {
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
 /* Title Image */
 .title-image {
   margin: auto auto -20rem 50px;
@@ -76,8 +83,6 @@ p {
 
 /* Features Section */
 #features {
-  /* padding: 7% 15%; */
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -117,9 +122,6 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 #press {
   background-color: #ef8172;
@@ -151,14 +153,12 @@ p {
 #cta {
   background-color: #FF4C68;
   color: #FFF;
-  padding: 7% 15%;
 }
 
 
 /* Footer Section */
 #footer {
   background-color: #FFF;
-  padding: 7% 15%;
 }
 
 .social-icon {
